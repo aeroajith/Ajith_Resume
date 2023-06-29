@@ -2,7 +2,6 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
@@ -68,9 +67,9 @@ export default function Testimonial(props) {
                 <div className="testi-comment">
                   <p>
                     <i className="fa fa-quote-left" />
-                    I patronized Ehizeex and when He delivered, I honestly fell
-                    in love with the project He is a very honest guy and he
-                    delivers ontime.
+                    During his tenure with us, he ably handled major responsibilities as a
+                    Systems Engineer, His major responsibilities lncluded System, support on our
+                    Unmanned AerialVehicles (UAV) division and Media works edting.
                     <i className="fa fa-quote-right" />
                   </p>
                   <ul className="stars list-unstyled">
@@ -93,11 +92,11 @@ export default function Testimonial(props) {
                 </div>
                 <div className="client-info">
                   <img
-                    src= "img/Testimonial/lady.png"
+                    src= "img/Testimonial/nethan.png"
                     alt="no internet connection"
                   ></img>
-                  <h5> Daisy Dominic</h5>
-                  <p>CEO insGlobal</p>
+                  <h5> Nethan P </h5>
+                  <p>CEO in Mellosys</p>
                 </div>
               </div>
             </div>
@@ -106,9 +105,8 @@ export default function Testimonial(props) {
                 <div className="testi-comment">
                   <p>
                     <i className="fa fa-quote-left" />
-                    I patronized Ehizeex and when He delivered, I honestly fell
-                    in love with the project He is a very honest guy and he
-                    delivers ontime.
+                    His contribution for the testing and developement for web & mobile apps are done well, 
+                    he had worked seamlessly with both our development group and with product management.
                     <i className="fa fa-quote-right" />
                   </p>
                   <ul className="stars list-unstyled">
@@ -131,52 +129,15 @@ export default function Testimonial(props) {
                 </div>
                 <div className="client-info">
                   <img
-                    src="img/Testimonial/lady.png"
+                    src="img/Testimonial/sathia.png"
                     alt="no internet connection"
                   ></img>
-                  <h5> Daisy Dominic</h5>
-                  <p>CEO insGlobal</p>
+                  <h5> Sathia Jay</h5>
+                  <p>Director of Inoaura Technologies</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-12">
-              <div className="testi-item">
-                <div className="testi-comment">
-                  <p>
-                    <i className="fa fa-quote-left" />
-                    I patronized Ehizeex and when He delivered, I honestly fell
-                    in love with the project He is a very honest guy and he
-                    delivers ontime.
-                    <i className="fa fa-quote-right" />
-                  </p>
-                  <ul className="stars list-unstyled" >
-                    <li>
-                      <i className="fa fa-star" />
-                    </li>
-                    <li>
-                      <i className="fa fa-star" />
-                    </li>
-                    <li>
-                      <i className="fa fa-star" />
-                    </li>
-                    <li>
-                      <i className="fa fa-star-half-alt" />
-                    </li>
-                    <li>
-                      <i className="fa fa-star" />
-                    </li>
-                  </ul>
-                </div>
-                <div className="client-info">
-                  <img
-                    src="img/Testimonial/lady.png"
-                    alt="no internet connection"
-                  ></img>
-                  <h5> Daisy Dominic</h5>
-                  <p>CEO insGlobal</p>
-                </div>
-              </div>
-            </div>
+             
             </OwlCarousel>
           </div>
         </div>

@@ -19,11 +19,11 @@ export default function AboutMe(props) {
     highlights: {
       bullets: [
         "Full stack Web Developer (React + Django)",
-        "Software Testing Engineer",
-        "UAV Integration Engineer",
+        "AWS cloud Management",
         "Database Management",
         "Team Building & Leadership",
         "Bussiness Management",
+        "UAV Integration Engineer", 
       ],
       heading: "TECHNOLOGY SUMMARY:",
     },

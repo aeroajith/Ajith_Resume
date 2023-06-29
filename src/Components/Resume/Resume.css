@@ -14,6 +14,10 @@
      
 }
 
+.userinfo{
+    font-size: 14px;
+}
+
 .resume-bullets{
     height: 100%;
     box-shadow: 15px 0 9px -15px #1f2235;
@@ -106,6 +110,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .heading-bullet{
@@ -135,6 +140,7 @@
     font-size: 14px;
     border-radius: 14px;
     color: white;
+    text-align: center;
 }
 
 .skill-parent{
@@ -174,9 +180,29 @@
     .resume-card{
         width: 750px;
     }
+    .resume-main-heading{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
 
     .resume-bullet-details{
         padding: 0 0 0 70px;
+    }
+    .resume-sub-heading{
+        font-size: 12px;
+        font-family: "Poppins SemiBold";
+        color: #111;
+        margin: 10px 0 0 0;
+    }
+    .heading-date{
+        background-color: var(--dark-orange);
+        padding: 2px 10px;
+        font-size: 12px;
+        border-radius: 14px;
+        color: white;
+        text-align: center;
     }
     
 }
@@ -200,6 +226,12 @@
         width: 90%;
 
     }
+    .resume-main-heading{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
     .resume-bullet-details{
         height: 360px;
         width: fit-content;
@@ -212,12 +244,46 @@
     .selected-bullet{
         width: 100%;
     }
+    .resume-sub-heading{
+        font-size: 12px;
+        font-family: "Poppins SemiBold";
+        color: #111;
+        margin: 10px 0 0 0;
+    }
+    .heading-date{
+        background-color: var(--dark-orange);
+        padding: 2px 10px;
+        font-size: 12px;
+        border-radius: 14px;
+        color: white;
+        text-align: center;
+    }
 }
 @media only screen and (max-width:1023px){
 
 .programming-skills-container{
 
     display: flex;
+}
+.resume-main-heading{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.resume-sub-heading{
+    font-size: 12px;
+    font-family: "Poppins SemiBold";
+    color: #111;
+    margin: 10px 0 0 0;
+}
+.heading-date{
+    background-color: var(--dark-orange);
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 14px;
+    color: white;
+    text-align: center;
 }
 
 }

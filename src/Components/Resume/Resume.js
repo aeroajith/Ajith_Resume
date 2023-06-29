@@ -59,15 +59,15 @@ const Resume = (props) => {
 
   const programmingSkillDetails = [
     { skill: "Python", ratingPercentage: 85 },
-    { skill: "JavaScript", ratingPercentage: 70 },
+    { skill: "Django", ratingPercentage: 70 },
+    { skill: "Django Rest API", ratingPercentage: 90 },
     { skill: "React Js", ratingPercentage: 80 },
-    { skill: "Node Js", ratingPercentage: 25 },
-    { skill: "SQLite", ratingPercentage: 80 },
-    { skill: "Django", ratingPercentage: 90 },
+    { skill: "React Native", ratingPercentage: 25 },
     { skill: "HTML5", ratingPercentage: 80 },
     { skill: "CSS3", ratingPercentage: 80 },
+    { skill: "Javascript", ratingPercentage: 80 },
     { skill: "PostgreSQL", ratingPercentage: 75 },
-    { skill: "Pix4D", ratingPercentage: 80 },
+    { skill: "SQLite", ratingPercentage: 80 },
   ];
 
   const projectDetails = [
@@ -77,23 +77,17 @@ const Resume = (props) => {
       description:
         "Admin site provides overall management of Medical sytem with includes bill generation and the data had been incoroprated with detailed in home dashboard page"
         ,
-      subHeading: "Technologies Used: React Js, Django Rest API, PostgreSQL, Bootsrap, AWS-EC2, RDM, S3 Bucket",
+      subHeading: "Technologies Used: React Js, Django Rest API, PostgreSQL, Bootsrap, AWS-EC2, RDM, S3 Bucket, Github, Hostinger",
     },
     
     {
-      title: "Ecommerce Website",
+      title: "Ecommerce Website - NexusRobotech",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
         "Online ecommerce website for showcasing and selling products online with payment system integration, both Paypal and Stripe",
       subHeading:
-        "Technologies Used: HTML5, CSS3, Javascript, J-quary & Ajax, Django, Bootstrap.",
-    },{
-      title: "Personal Portfolio Resume",
-      duration: { fromDate: "2022", toDate: "2022" },
-      description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React Js, Bootsrap, EmailJs"
-    },
+        "Technologies Used: React Js, Django Rest API, PostgreSQL, React-Bootsrap, AWS-EC2, RDM, Github, Paypal, Razorpay, Hostinger",
+    }
   ];
 
   const resumeDetails = [
@@ -125,14 +119,14 @@ const Resume = (props) => {
       <div className="experience-container">
         <ResumeHeading
           heading={"Inoaura Technologies"}
-          subHeading={"Software Testing Engineer"}
+          subHeading={"Software Developer & Testing Engineer"}
           fromDate={"2023"}
           toDate={"Present"}
         />
 
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as a software testing engineer for web and mobile application and also have an ability to transform as a full stack web developer.
+            Currently working as a software developer and testing engineer for web and mobile application and also have an ability to transform as a full stack web developer.
           </span>
         </div>
 
@@ -177,21 +171,32 @@ const Resume = (props) => {
 
     /* PROJECTS */
     <div className="resume-screen-container" key="projects">
+      <div>
       <h6>Full stack Medical Admin site Link :
-      <a href="https://ragavimedical.online/" target="_blank"> https://ragavimedical.online/</a>
+      <a href="https://ragavimedical.online/" target="_blank"> ragavimedical.online</a>
       </h6>
+      <div className="userinfo">
+      <p>UserName : <strong>Test</strong> Password: <strong>Test@1234#</strong></p>
+      </div>
+      </div>
     
       {projectDetails.map((projectDetails, index) => (
         <ResumeHeading
           key={index}
           heading={projectDetails.title}
           subHeading={projectDetails.subHeading}
-          description={projectDetails.description}
           fromDate={projectDetails.duration.fromDate}
           toDate={projectDetails.duration.toDate}
         />
       ))}
-    </div>,
+
+     <div>
+      <h6>E-commerce Website Link :
+      <a href="https://nexusrobotech.shop/" target="_blank"> nexusrobotech.shop</a>
+      </h6>
+       
+      </div>
+     </div>,
 
     /* Interests */
     <div className="resume-screen-container" key="interests">

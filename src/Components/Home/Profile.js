@@ -36,7 +36,7 @@ function Profile() {
           <div className="profile-details-name">
             <sapn className="primary-text">
               {""}
-              Hello, I'm <span className="highlighted-text">Ajith Kumar</span>
+              Hello, I'm <span className="highlighted-text">Ajith Kumar A</span>
             </sapn>
           </div>
           <div className="profile-details-role">
@@ -48,11 +48,11 @@ function Profile() {
                   steps={[
                     "Full Stack Web Developer",
                     4000,
-                    "Software Testing",
+                    "React & Django developer",
+                    4000,
+                    "AWS Cloud Management",
                     4000,
                     "UAV Integration Engineer",
-                    4000,
-                    "Drone Pilot ",
                     4000,
                   ]}
                 />
