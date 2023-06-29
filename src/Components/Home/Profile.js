@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import Resume from "../../Components/Ajith Kumar.pdf"
+import Resume from "../../Components/AjithKumar.pdf"
 import "./Profile.css";
 import ScrollService from "../../Utilities/ScrollService";
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";

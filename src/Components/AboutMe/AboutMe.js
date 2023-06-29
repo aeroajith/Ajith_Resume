@@ -3,7 +3,7 @@ import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
 import "./AboutMe.css";
-import Resume from "../Ajith Kumar.pdf"
+import Resume from "../AjithKumar.pdf"
 
 export default function AboutMe(props) {
   let fadeInScreenHandler = (screen) => {
